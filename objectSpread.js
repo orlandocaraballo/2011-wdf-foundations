@@ -19,11 +19,14 @@ const newPerson = {
   name: "Denisse", // here we override the name property set above with a new value
 };
 
+// let's practice some array copying using the
+//  ... spread operator
 const array1 = [1, 2, 3];
 const array3 = [45, 2, -3, 3, 55];
 const array2 = [-98, ...array3, ...array1, 4];
 const array4 = [...array1, ...array3];
 
+// can we copy multidimensional arrays? 🤔
 const multiDimensionalArray = [
   [-3, -2, -1],
   [1, 2, 3],
@@ -33,12 +36,14 @@ const multiDimensionalArray = [
   ],
 ];
 
-const newMultiDimensionaArray = [...multiDimensionalArray];
+// looks like we can 😀
+const newMultiDimensionalArray = [...multiDimensionalArray];
 
+// let's see some output so we know things worked correctly
 console.log("This is the person: ", defaultPerson);
 console.log("This is the other person: ", newPerson);
 
 console.log("This is array 1: ", array1);
 console.log("This is array 2: ", array2);
 console.log("This is array 4: ", array4);
-console.log("This is the multi array:", newMultiDimensionaArray);
+console.log("This is the multi array:", newMultiDimensionalArray);
