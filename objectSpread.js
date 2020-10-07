@@ -40,10 +40,28 @@ const multiDimensionalArray = [
 const newMultiDimensionalArray = [...multiDimensionalArray];
 
 // let's see some output so we know things worked correctly
-console.log("This is the person: ", defaultPerson);
-console.log("This is the other person: ", newPerson);
+console.log("This is the person => ", defaultPerson);
+console.log("This is the other person => ", newPerson);
 
-console.log("This is array 1: ", array1);
-console.log("This is array 2: ", array2);
-console.log("This is array 4: ", array4);
-console.log("This is the multi array:", newMultiDimensionalArray);
+console.log("This is array 1 => ", array1);
+console.log("This is array 2 => ", array2);
+console.log("This is array 4 => ", array4);
+console.log("This is the multi array => ", newMultiDimensionalArray);
+
+// this is called object destructuring
+//  - using this method we can extract properties from objects
+//  MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+const { name, age } = newPerson;
+
+// we can also do this with arrays
+//  - first === first element of array
+//  - second === second element of the array
+//  - theRest === the rest of the elements of the array
+const [first, second, ...theRest] = array1;
+
+// let's see what the output looks like
+console.log("name => ", name);
+console.log("age => ", age);
+console.log("first => ", first);
+console.log("second => ", second);
+console.log("theRest => ", theRest);
