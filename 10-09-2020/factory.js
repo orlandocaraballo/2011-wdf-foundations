@@ -27,17 +27,34 @@ Dog.prototype.nameAndGender = function () {
 //  The following the Dog function constructor
 //    which behaves similar to the factory but must be
 //    initialized using new operator.
-function Dog(name, gender) {
+function Dog(name, gender, type = null) {
   this.name = name;
   this.gender = gender;
+  this.type = type;
 }
 
-// notice the difference in how we use dogFactory
+// Notice the difference in how we use dogFactory
 //    vs the Dog function constructor
 const salmon = dogFactory("salmon", "female");
 const optimusPrime = new Dog("Optimus Prime", "female");
-const max = new Dog("max", "non-binary");
+const max = new Dog("max", "non-binary", "pug");
 
-// each of these should display the objects information
-//    along with its methods
+// Each of these should display the objects information
+//  along with its methods
 console.log(salmon, optimusPrime, max);
+
+function GoldenRetriever(name, gender) {
+  this.name = name;
+  this.gender = gender;
+  this.type = "golden retriever";
+}
+
+// Here we assign the prototype of GoldenRetriever
+//  to be set to the Dog.prototype
+GoldenRetriever.prototype = Object.create(Dog.prototype);
+
+const lady = new GoldenRetriever("lady", "female");
+
+// Because we set our prototype for the GR objec to the Dog prototype
+//  we have access to Dog's methods
+console.log(lady.nameAndGender());
