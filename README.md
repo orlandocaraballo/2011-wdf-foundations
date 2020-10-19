@@ -19,7 +19,7 @@ Examples & Videos for 2011 WDF Foundations
 - [📓 10-16-2020 - Orlando's Review](https://youtu.be/DENoTtdsI2o)
 
 ## Week 3 Review Videos
-- [📓 10-19-2020 - Dan's Review]()
+- [📓 10-19-2020 - Dan's Review](https://youtu.be/JQ4DvUmX60Q)
 
 ## Extra Resources
 
