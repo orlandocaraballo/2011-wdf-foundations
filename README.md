@@ -18,6 +18,9 @@ Examples & Videos for 2011 WDF Foundations
 - [📝 10-15-2020 - Esther's Notes](https://www.notion.so/Week-2-00cbaee76e824561a6cba4c649b5c2d9)
 - [📓 10-16-2020 - Orlando's Review](https://youtu.be/DENoTtdsI2o)
 
+## Week 3 Review Videos
+- [📓 10-19-2020 - Dan's Review]()
+
 ## Extra Resources
 
 - [Medium: Understanding the “this” Keyword in JavaScript](https://medium.com/better-programming/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8)
