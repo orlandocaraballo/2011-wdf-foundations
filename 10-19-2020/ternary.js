@@ -16,6 +16,6 @@ const isDan = (name) => {
 
 // FANCY VERSION/One Liner
 // IS STATEMENT TRUTHY ? YES : NO
-const isDan = (name) => (name === "dan" ? "This is dan" : "nope");
+const isDan = name => name === "dan" ? "This is dan" : "nope";
 
 isDan(dan);
