@@ -1,4 +1,4 @@
-# wdf-examples
+# 2011-wdf-foundations
 
 Examples & Videos for 2011 WDF Foundations
 
