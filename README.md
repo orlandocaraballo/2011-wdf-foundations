@@ -31,6 +31,7 @@ Examples & Videos for 2011 WDF Foundations
 
 - [📓 10-26-2020 - Orlando's Review](https://youtu.be/cvQQfM9QBGs)
 - [📓 10-27-2020 - Erick's Review](https://youtu.be/sNTW8doIIB4)
+- [📓 10-29-2020 - Esther's Review](https://youtu.be/LFnPHV8JAJU)
 
 
 ## Extra Resources
